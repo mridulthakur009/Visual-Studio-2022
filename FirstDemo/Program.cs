@@ -10,6 +10,16 @@ namespace FirstDemo
     {
         static void Main()
         {
+            decimal num10, num11, res;
+            Console.WriteLine("Enter First Number : ");
+            num10 = Convert.ToDecimal(Console.ReadLine());
+
+            Console.WriteLine("Enter Second Number : ");
+            num11 = Convert.ToDecimal(Console.ReadLine());
+
+            res = num10 + num11;
+            //Console.WriteLine("The result is : {0}", res);
+            Console.WriteLine("The result is: "+res);
             // int num = 20;
             // Console.WriteLine(num);
 
@@ -73,16 +83,7 @@ namespace FirstDemo
             // name = Console.ReadLine();
             // Console.WriteLine(name);
 
-            decimal num10, num11, res;
-            Console.WriteLine("Enter First Number : ");
-            num10 = Convert.ToDecimal(Console.Read());
 
-            Console.WriteLine("Enter Second Number : ");
-            num11 = Convert.ToDecimal(Console.Read());
-
-            res = num10 + num11;
-            Console.WriteLine("The result is : {0}", res);
-            Console.WriteLine(res);
 
 
 
