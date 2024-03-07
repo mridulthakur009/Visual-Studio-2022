@@ -4,7 +4,6 @@ public class Operator
 {
 	public Operator()
 	{
-
 		//Arithematic Operator: +,-,*,/
 		//Relational Operator: < , < , >= , <=, == , !=
 		//Logical Operator:	&&, || , !
@@ -22,5 +21,9 @@ public class Operator
 
 		res = num1 + num2;
 		Console.WriteLine("The result is : {0}", res);
+
+		string name = "as";
+		//int abc = Convert.ToInt32(name); //16bit 32bit
+		int abc = int.Parse(name);  //32bit both Convert & Parse are same but Parse take only 32bit
 	}
 }
