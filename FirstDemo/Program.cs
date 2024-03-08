@@ -100,6 +100,8 @@ namespace FirstDemo
             //Console.WriteLine("Converting String is a numeric representation: " + res);
             //Console.ReadLine();
 
+            //Check whether two integers are equal or not
+
             //Console.WriteLine("Enter 1st Number: ");
             //int a = Convert.ToInt16(Console.ReadLine());
 
@@ -133,6 +135,11 @@ namespace FirstDemo
             else
                 Console.WriteLine("{0} and {1} are not equal.\n", int1, int2); // Printing a message if the numbers are not equal
 
+            int sum = 0;
+            for(int i = 0; i < int1; i++)
+            {
+                Console.WriteLine(i);
+            }
 
         }
         //public void Operator()
