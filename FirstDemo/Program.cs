@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace FirstDemo
 {
-    class Program
+    class Program: ClassExample
     {
         static void Main()
         {
@@ -119,27 +119,30 @@ namespace FirstDemo
             //}
             //Console.WriteLine("End");
 
-            int int1, int2; // Declaration of integer variables int1 and int2
-            Console.Write("\n\n"); // Printing new lines
-            Console.Write("Check whether two integers are equal or not:\n"); // Displaying the purpose of the program
-            Console.Write("-------------------------------------------"); // Displaying a separator
-            Console.Write("\n\n"); // Printing new lines
-            Console.Write("Input 1st number: "); // Prompting user to input the first number
-            int1 = Convert.ToInt32(Console.ReadLine());  // Reading the first input number from the user
+            //int int1, int2; // Declaration of integer variables int1 and int2
+            //Console.Write("\n\n"); // Printing new lines
+            //Console.Write("Check whether two integers are equal or not:\n"); // Displaying the purpose of the program
+            //Console.Write("-------------------------------------------"); // Displaying a separator
+            //Console.Write("\n\n"); // Printing new lines
+            //Console.Write("Input 1st number: "); // Prompting user to input the first number
+            //int1 = Convert.ToInt32(Console.ReadLine());  // Reading the first input number from the user
 
-            Console.Write("Input 2nd number: "); // Prompting user to input the second number
-            int2 = Convert.ToInt32(Console.ReadLine());  // Reading the second input number from the user
+            //Console.Write("Input 2nd number: "); // Prompting user to input the second number
+            //int2 = Convert.ToInt32(Console.ReadLine());  // Reading the second input number from the user
 
-            if (int1 == int2)  // Checking if int1 is equal to int2
-                Console.WriteLine("{0} and {1} are equal.\n", int1, int2); // Printing a message if the numbers are equal
-            else
-                Console.WriteLine("{0} and {1} are not equal.\n", int1, int2); // Printing a message if the numbers are not equal
+            //if (int1 == int2)  // Checking if int1 is equal to int2
+            //    Console.WriteLine("{0} and {1} are equal.\n", int1, int2); // Printing a message if the numbers are equal
+            //else
+            //    Console.WriteLine("{0} and {1} are not equal.\n", int1, int2); // Printing a message if the numbers are not equal
 
-            int sum = 0;
-            for(int i = 0; i < int1; i++)
-            {
-                Console.WriteLine(i);
-            }
+            //int sum = 0;
+            //for(int i = 0; i < int1; i++)
+            //{
+            //    Console.WriteLine(i);
+            //}
+
+            ClassExample mridul = new ClassExample();
+            Console.WriteLine(mridul.name);
 
         }
         //public void Operator()
